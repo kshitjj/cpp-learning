@@ -22,4 +22,8 @@ int main(){
     //Using Descriptive Identifiers
         int minutesPerHour = 60;
         cout << "minutesPerHour = " << minutesPerHour << endl;
+
+    //Using Constants
+        const float valueOfPi = 3.14;
+        cout << "valueOfPi = " << valueOfPi << endl;
 }
