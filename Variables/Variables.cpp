@@ -18,4 +18,8 @@ int main(){
     x = 10;
     y = 20;
     cout << x + y << endl;
+
+    //Using Descriptive Identifiers
+        int minutesPerHour = 60;
+        cout << "minutesPerHour = " << minutesPerHour << endl;
 }
