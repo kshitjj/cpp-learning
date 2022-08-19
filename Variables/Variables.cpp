@@ -9,6 +9,13 @@ string myString = "Hello World";
 bool myBoolean = true;
 
 int main(){
+    //printing variables
+    cout << myNum << endl;
+    cout << myFloatNum << endl;
+    cout << myLetter << endl;
+    cout << myString << endl;
+    cout << myBoolean << endl;
+
     // displaying variables
     int myAge = 15;
     cout << "I am " << myAge << " Years Old" << endl;
@@ -26,4 +33,5 @@ int main(){
     //Using Constants
         const float valueOfPi = 3.14;
         cout << "valueOfPi = " << valueOfPi << endl;
+        return 0;
 }
