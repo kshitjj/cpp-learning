@@ -28,7 +28,7 @@ int main(){
 
 	Apple.color = "red";
 	Apple.taste = "sweet";
-    Apple.size = "medium";
+    	Apple.size = "medium";
 
 	Orange.color = "orange";
 	Orange.taste = "sour";
@@ -38,6 +38,6 @@ int main(){
 	Peach.taste = "sweet";
 	Peach.size = "medium";
 	
-	cout << "Color of the fruit is " << Peach.color << ", Taste of the fruit is " << Peach.taste << ", Size of the fruit is " << Peach.size;
+	cout << "Color of the fruit is " << Peach.color << ", Taste of the fruit is " << Peach.taste << ", Size of the fruit is " << Peach.size << endl;
 	return 0;
 }
