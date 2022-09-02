@@ -5,26 +5,26 @@ using namespace std;
 
 class college {
 // note the donation amount(private attribute can only be accessed within the function)
-private: 
-	int donation = 1500000;
+	private: 
+		int donation = 1500000;
 
-public:
-string name;
-int yearEstablished;
+	public:
+		string name;
+		int yearEstablished;
 // 2.declaration of constructor
-college(string x, int y);
+		college(string x, int y);
 
 // 1.declaring the introduction method
-void introduction();
+		void introduction();
 
 // 3.to get or set the donation amount within the college class we can use the following methods
-void getDonation(){
-cout << "Donation amount is " << donation << endl; 
-}
+		void getDonation(){
+		cout << "Donation amount is " << donation << endl; 
+		}
 
-void setDonation(int newDonation){
-donation = newDonation;
-}
+		void setDonation(int newDonation){
+		donation = newDonation;
+		}
 };
 
 // 2. definition of constructor
